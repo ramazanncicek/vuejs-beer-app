@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ubuntu:wght@300&display=swap');
+
+::-webkit-scrollbar {
+    width: 25px;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    width: 20px;
+    border-radius: 10px;
+  }
+#app {
+    font-family: 'Ubuntu',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: white;
+    margin: 60px 0 0 0;
+  }
+body{
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    
+}
+.beer-ingredients{
+    list-style-type: none;
+}
+.total-beers {
+    list-style-type: none;
+}
+img {
+    width: auto;
+    height: 40vh;
+}
+.contributors {
+    text-decoration: underline;
+}
+#get-beers {
+    padding: 1em 2em 1em 2em;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+}
+#get-beers:hover{
+    background-color: yellow;
+    transition: 800ms;
+    color:black;
+}
+/* Beer Components below */
+.beer-tagline{
+    box-shadow: 2px 2px 2px 2px black;
+    font-family: 'Fjalla one', sans-serif;
+    letter-spacing: 2px;
+    font-size: xx-large;
+}
+.beer-ingredients-2{
+    line-height: 3em;
+    box-shadow: 0 0 5px 0 black;
+    margin-top: 1em;
+}
+.beer-description {
+    line-height: 2em;
+    font-size:x-large;
+}
+.beer-tips {
+    font-size:larger;
+    line-height: 2em;
+}
